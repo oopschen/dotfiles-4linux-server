@@ -13,11 +13,17 @@ Dotfiles 4 linux server management.
 - [ZPlug](https://github.com/zplug/zplug)
 - [NodeJs](https://nodejs.org/en)
 - [Gawk](https://www.gnu.org/software/gawk/)
+- [Python]
 
 ## Usage
-1. Install the Software: Tmux/Zsh/Vim/Git/Gawk
+1. Install the Software: Tmux/Zsh/Vim/Git/Gawk/Python
 
-2. Run setup script below.
+2. Login in with zsh, run script:
+```
+zplug install
+```
+
+3. Run setup script below.
 ```
 sh bin/setup.sh
 sh bin/populate-server.sh
