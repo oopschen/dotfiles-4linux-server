@@ -26,4 +26,4 @@ for zsh_conf_file in $(find "$HOME/.config/zsh.d/" -mindepth 1 -type f -iname '*
 done
 
 # start tmux here, always be the last line
-if [ "$TMUX" = ""  ]; then tmux -2; fi
+if [ "$TMUX" = ""  ]; then exec tmux -2; fi
