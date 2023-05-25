@@ -1,3 +1,6 @@
+#### fixes
+# zplug fixes crtl+z not work: rm ~/.zplug/log/job.lock
+
 # zplug
 source ~/.zplug/init.zsh
 
@@ -22,5 +25,5 @@ for zsh_conf_file in $(find "$HOME/.config/zsh.d/" -mindepth 1 -type f -iname '*
     source "$zsh_conf_file"
 done
 
-#### fixes
-# zplug fixes crtl+z not work: rm ~/.zplug/log/job.lock
+# start tmux here, always be the last line
+tmux -2 

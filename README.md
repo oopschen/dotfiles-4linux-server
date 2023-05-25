@@ -12,9 +12,10 @@ Dotfiles 4 linux server management.
 - [ZPlug](https://github.com/zplug/zplug)
 
 ## Usage
-1. Install the Software above.
+1. Install the Software: Tmux/Zsh/Vim/Git
 
 2. Run setup script below.
 ```
+sh bin/setup.sh
 sh bin/populate-server.sh
 ```
