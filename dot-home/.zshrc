@@ -22,7 +22,5 @@ for zsh_conf_file in $(find "$HOME/.config/zsh.d" -mindepth 1 -type f -name '*.s
     source "$zsh_conf_file"
 done
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 #### fixes
 # zplug fixes crtl+z not work: rm ~/.zplug/log/job.lock
