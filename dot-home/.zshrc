@@ -18,7 +18,7 @@ zplug "gradle/gradle-completion", from:github, depth:1, as:command
 
 zplug load
 
-for zsh_conf_file in $(find "$HOME/.config/zsh.d" -mindepth 1 -type f -name '*.sh' | sort -n); do
+for zsh_conf_file in $(find "$HOME/.config/zsh.d/" -mindepth 1 -type f -iname '*.sh' | sort -n); do
     source "$zsh_conf_file"
 done
 
