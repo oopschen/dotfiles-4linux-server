@@ -8,8 +8,10 @@ Dotfiles 4 linux server management.
 - [Fzf](https://github.com/junegunn/fzf)
 - [Vim Plug](https://github.com/junegunn/vim-plug)
 - [Vim Coc](https://github.com/neoclide/coc.nvim)
+- [Vim >= 8.1.1719](https://www.vim.org/)
 - [Git](https://git-scm.com/)
 - [ZPlug](https://github.com/zplug/zplug)
+- [NodeJs](https://nodejs.org/en)
 
 ## Usage
 1. Install the Software: Tmux/Zsh/Vim/Git
