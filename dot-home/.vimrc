@@ -51,7 +51,6 @@ autocmd FileType java setlocal shiftwidth=4 softtabstop=2 tabstop=4
 call plug#begin('~/.vim/plugged')
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug '~/.zplug/bin/fzf'
