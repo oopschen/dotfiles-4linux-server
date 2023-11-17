@@ -16,12 +16,12 @@ Dotfiles 4 linux server management.
 
 ## Usage
 
-1. Install the Software: Tmux/Zsh/Vim/Git/Gawk/Python.
+1. Install the Software: Tmux/Zsh/Vim/Git/Gawk/Python/Nodejs.
 
 1. Run setup script below.
 ```
-sh bin/setup.sh
-sh bin/populate-server.sh
+bash bin/setup.sh
+bash bin/populate-server.sh
 ```
 
 1. Restart with zsh, run below script.
